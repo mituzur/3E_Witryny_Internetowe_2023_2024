@@ -1,0 +1,24 @@
+Zad 1
+<font> CSS do formatowania tekstu
+<center> CSS do wyśrodkowywania elementów
+<strike> <del> (w HTML5), CSS do przekreślania tekstu
+<applet> <object> (z atrybutem type)
+<basefont> CSS do zmiany rozmiaru czcionki
+<big> CSS do zmiany rozmiaru tekstu
+<frame> <iframe> (dla osadzania zawartości)
+<frameset> Użyj innych technologii jak CSS i JavaScript zamiast ramek.
+<noframes> Dla użytkowników bez obsługi ramek, użyj alternatywnego tekstu.
+align atrybut (wewnątrz elementów) CSS do wyśrodkowywania i wyrównywania elementów.
+
+Zad 2
+– W języku HTML 5 usunięto przestarzałe instrukcje: <basefront>, <big>, <center>, <strike>, <frame>, <frameset>, <tt>.
+
+– W miejsce usuniętych dyrektyw wprowadzono nowe instrukcje: <article>, <header>, <details>, <figure>, <nav>, <section>, <mark>, <time>, <audio>,<video>, <source>, <bdo>, <rp>.
+
+– Wersja 5 upraszcza zapis znaczników językowych (obecnie wystarczy zapis: <meta charset=”UTF-8″ />, wcześniejszy zapis wyglądał następująco: <meta http-equiv=”content-type” content=”text/html;charset=UTF-8″ />)
+
+– Wprowadzono moduł API i kompleksową obsługę multimediów.
+
+– Rozbudowano formularze.
+
+Zad 3
