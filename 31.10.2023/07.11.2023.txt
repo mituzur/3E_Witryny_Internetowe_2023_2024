@@ -1,0 +1,64 @@
+Zad 1
+<font> CSS do formatowania tekstu
+<center> CSS do wyśrodkowywania elementów
+<strike> <del> (w HTML5), CSS do przekreślania tekstu
+<applet> <object> (z atrybutem type)
+<basefont> CSS do zmiany rozmiaru czcionki
+<big> CSS do zmiany rozmiaru tekstu
+<frame> <iframe> (dla osadzania zawartości)
+<frameset> Użyj innych technologii jak CSS i JavaScript zamiast ramek.
+<noframes> Dla użytkowników bez obsługi ramek, użyj alternatywnego tekstu.
+align atrybut (wewnątrz elementów) CSS do wyśrodkowywania i wyrównywania elementów.
+
+Zad 2
+– W języku HTML 5 usunięto przestarzałe instrukcje: <basefront>, <big>, <center>, <strike>, <frame>, <frameset>, <tt>.
+
+– W miejsce usuniętych dyrektyw wprowadzono nowe instrukcje: <article>, <header>, <details>, <figure>, <nav>, <section>, <mark>, <time>, <audio>,<video>, <source>, <bdo>, <rp>.
+
+– Wersja 5 upraszcza zapis znaczników językowych (obecnie wystarczy zapis: <meta charset=”UTF-8″ />, wcześniejszy zapis wyglądał następująco: <meta http-equiv=”content-type” content=”text/html;charset=UTF-8″ />)
+
+– Wprowadzono moduł API i kompleksową obsługę multimediów.
+
+– Rozbudowano formularze.
+
+Zad 3
+HTML 4.0 http://www.w3.org/TR/html4
+HTML 4.01 http://www.w3.org/TR/html401
+HTML 5.0 http://www.w3.org/TR/2011/WD-html5-20110405/
+
+Zad 4
+1.witryny internetowe
+opis: zbiór stron, adresów URL i podstron, które są umieszczone na jednym serwerze i w ramach jednej domeny.
+adres url:https://www.pozycjonusz.pl/co-to-jest-adres-url-strony-i-jak-powinien-wygladac/
+2.Portal internetowy
+opis:to taki rodzaj serwisu informatycznego (informacyjnego), poprzez który użytkownicy mają dostęp do nowych informacji z wielu dziedzin. Zazwyczaj portale internetowe zawierają mechanizmy wyszukiwania informacji, plików, stron WWW.
+adres url: https://mfiles.pl/pl/index.php/Portal_internetowy
+3.Sklep internetowy
+opis: rodzaj serwisu z katalogiem produktów lub usług, który umożliwia prowadzenie sprzedaży oraz dokonywanie zakupów za pośrednictwem Internetu.
+adres url: https://www.sempire.pl/sklep-internetowy-definicja-rodzaje-funkcjonalnosci.html
+4.Blog tekstowy
+opis:  rodzaj witryny internetowej, którą wyróżniają samodzielnie i specyficznie pisane wpisy, które układane są chronologicznie przez autora.
+adres url: https://stylovy.pl/co-to-jest-blog-czy-warto-prowadzic
+5.Wideo blog
+opis: rodzaj bloga internetowego, który zamiast postów tekstowych posługuje się materiałem filmowym.
+adres url: https://www.semtec.pl/slownik-seo/wideoblog/
+
+Zad 5
+odp: portal internetowy ponieważ zawiera treści edukacyjne i informacje związne z edukacją
+
+Zad 6
+1 Przykład niej nie poprawny 
+2 przykład niej nie poprawny
+3 przykład jest poprawny 
+4 przykład jest poprawny
+5 przykład nie jest poprawny 
+
+Zad 7
+
+
+Zad 8
+1A
+2D
+3C
+4C
+5A
