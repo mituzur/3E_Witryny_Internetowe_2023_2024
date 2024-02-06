@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Wyboru Przedmiotów Maturalnych</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        form {
+            background-color: #d3f7d3;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            margin: 0 auto;
+        }
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        input[type="submit"], input[type="reset"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form id="maturaForm">
+        <h2>Formularz Wyboru Przedmiotów Maturalnych</h2>
+        <label for="fullName">Imię i nazwisko ucznia:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        
+        <label for="classNumber">Numer klasy:</label>
+        <input type="text" id="classNumber" name="classNumber" required>
+
+        <label for="gender">Płeć:</label>
+        <input type="radio" id="male" name="gender" value="mężczyzna" required>
+        <label for="male">Mężczyzna</label>
+        <input type="radio" id="female" name="gender" value="kobieta" required>
+        <label for="female">Kobieta</label>
+        <input type="radio" id="other" name="gender" value="inna" required>
+        <label for="other">Inna</label>
+        
+        <label for="subjects">Wybierz przedmioty maturalne:</label>
+        <select id="subjects" name="subjects" multiple required>
+            <option value="Matematyka">Matematyka</option>
+            <option value="Fizyka">Fizyka</option>
+            <option value="Chemia">Chemia</option>
+            <option value="Biologia">Biologia</option>
+            <option value="Informatyka">Informatyka</option>
+            <!-- Dodaj więcej opcji według potrzeb -->
+        </select>
+
+        <label for="level">Wybierz poziom arkusza dla każdego przedmiotu:</label>
+        <select id="level" name="level" multiple required>
+            <option value="Podstawowy">Podstawowy</option>
+            <option value="Rozszerzony">Rozszerzony</option>
+        </select>
+
+        <label for="comments">Uwagi:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <input type="submit" value="Wyślij dane">
+        <input type="reset" value="Wyczyść dane">
+    </form>
+
+    <script>
+        document.getElementById("maturaForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Zapobiegaj domyślnej akcji formularza
+            // Tutaj możesz dodać logikę wysyłania danych na adres e-mail
+            alert("Dane zostały wysłane na adres dyrekcja@szkolna.pl");
+            this.reset(); // Wyczyść formularz po wysłaniu danych
+        });
+    </script>
+</body>
+</html>
