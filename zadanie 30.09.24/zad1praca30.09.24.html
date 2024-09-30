@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu z CSS</title>
+    <style>
+      body,
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      ul.menu {
+        list-style-type: none;
+        background-color: #333;
+        text-align: center;
+      }
+
+      ul.menu li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      ul.menu li a {
+        text-decoration: none;
+        display: block;
+        color: #ffffff;
+        background-color: #333;
+        padding: 15px 20px;
+        font-family: Arial, sans-serif;
+      }
+
+      ul.menu li a:hover {
+        background-color: #555;
+      }
+
+      ul.menu li a:visited {
+        color: #a2d9ce;
+      }
+
+      ul.menu li a:active {
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </body>
+</html>
