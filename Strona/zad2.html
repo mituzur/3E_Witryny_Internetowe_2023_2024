@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obraz Tła w .banner</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .banner {
+            height: 200px;
+            text-align: center;
+            color: black;
+            padding: 50px;
+        }
+
+        
+        .banner-horizontal {
+            background-image: url(kit.jpg);
+            background-repeat: repeat-x;
+            background-color: #003366; 
+        }
+
+        
+        .banner-vertical {
+            background-image: url(elprimo.jpg);
+            background-repeat: repeat-y;
+            background-color: #003366; 
+        }
+
+       
+        .banner-no-repeat {
+            background-image: url(po\ co.jpg);
+            background-repeat: no-repeat;
+            background-size: contain; 
+            background-color: #003366; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner banner-horizontal">
+        <h2>Powtarzający się w poziomie</h2>
+    </div>
+
+    <div class="banner banner-vertical">
+        <h2>Powtarzający się w pionie</h2>
+    </div>
+
+    <div class="banner banner-no-repeat">
+        <h2>Niepowtarzający się</h2>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pozycjonowanie Tła</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .section {
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-image: url(krajobraz.webp);
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .top-left {
+            background-position: top left;
+            background-color: rgba(0, 51, 102, 0.7);
+        }
+
+        .center {
+            background-position: center;
+            background-color: rgba(0, 102, 51, 0.7);
+        }
+
+        .bottom-right {
+            background-position: bottom right;
+            background-color: rgba(153, 153, 153, 0.7);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section top-left">
+        <h2>Obraz w Lewym Górnym Rogu</h2>
+    </div>
+
+    <div class="section center">
+        <h2>Obraz w Centrum</h2>
+    </div>
+
+    <div class="section bottom-right">
+        <h2>Obraz w Prawym Dolnym Rogu</h2>
+    </div>
+
+</body>
+</html>
